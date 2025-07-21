@@ -1,1 +1,2 @@
 first line of reset
+second line of reset
