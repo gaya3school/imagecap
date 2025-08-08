@@ -1,3 +1,4 @@
 first line of reset
 second line of reset
 third line of reset
+fourth line of reset
