@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Image Captioner</title>
+      <style>
+        body { font-family: Arial; padding: 10px; width: 250px; }
+        button { background: #4CAF50; color: white; border: none; padding: 8px; cursor: pointer; }
+      </style>
+    </head>
+    <body>
+      <h3>Paste or Upload an Image</h3>
+        <div id="pasteArea" contenteditable="true" style="border: 2px dashed #aaa; padding: 20px; min-height:80px;">
+            <i>Click here and press Ctrl+V with an image in clipboard,<br>or use the file upload below:</i>
+        </div> <br>
+        <input type="file" id="image" accept="image/*">
+        <button id="generate">Generate Caption</button>
+        <p id="caption"></p>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
